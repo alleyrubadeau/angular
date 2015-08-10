@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+
+</head>
+<body>
+
+  <input type="text" placeholder="What is your name" ng-model='name'>
+    <h1>My name is: {{name}}</h1>
+    <select ng-model='animal'>
+      <option value="dogs">Dogs</option>
+      <option value="cats">Cats</option>
+      <option value="dogsandcats">Dogs and Cats</option>
+      <option value="neither">neither</option>
+    </select>
+    <h3>I love: {{animal}}</h3>
+
+
+
+
+</body>
+</html>
