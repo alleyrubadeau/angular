@@ -44,5 +44,11 @@ Unlike JavaScript expressions, AngularJS expressions support filters.
 You do not get an error it just doesnt render, no error in the console.
 
 #What are Angular filters? Name 4 built-in filters, including one that we haven't used yet.
-way of modifying expressions before they are rendered 
+way of modifying expressions before they are rendered
 currency, number, uppercase, lowercase, decorate
+
+#what is scope?
+State such as login and logout scope gives us the ability to change the state of our objects. provides initial state and or date.
+
+#angular module?
+container to keep controllers
